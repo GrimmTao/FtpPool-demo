@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2019, 2019 Hirain Technologies Corporation.
+ * Copyright (c) 2019, 2019 Alex.
  ******************************************************************************/
 package com.alex.demo.ftppool.pool;
 
@@ -28,7 +28,7 @@ public class FtpProperties {
 	private String username = "root";
 
 	@Value("${ftppool.demo.ftp.password}")
-	private String password = "toorHirain";
+	private String password = "123456";
 
 	@Value("${ftppool.demo.ftp.timeout}")
 	private Integer timeout = 5000;
